@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17251f">
+<meta name="description" content="Send a product enquiry to HE Avatar.">
+<title>Enquiry | HE Avatar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topstrip">HE AVATAR <span>/</span> Avatar household pest-control range</div>
+<header class="header"><div class="wrap bar">
+  <a class="logo" href="index.html" aria-label="Avatar home"><span class="logo-badge"><img src="images/logo.png" alt="HE Avatar logo" width="56" height="44"></span><span class="logo-text"><b>AVATAR</b><small>PEST CONTROL</small></span></a>
+  <ul class="nav" aria-label="Main navigation"><li><a href="index.html">Home</a></li><li class="has-drop"><a href="products.html">Our Products<span class="caret">▾</span></a><div class="drop" data-brand-links></div></li><li><a href="about.html">About Us</a></li><li><a href="enquiry.html" class="active">Enquiry</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+  <a class="btn btn-leaf cta" href="enquiry.html">Get a quote ↗</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav">☰</button>
+</div><nav class="mnav" id="mnav" aria-label="Mobile navigation"><a href="index.html">Home</a><a href="products.html">Our Products</a><a href="about.html">About Us</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact Us</a></nav></header>
+<div class="rail" aria-label="Social links"><a href="#" aria-label="Facebook"><i data-icon="fb"></i></a><a href="#" aria-label="Instagram"><i data-icon="ig"></i></a><a href="#" aria-label="LinkedIn"><i data-icon="in"></i></a><a href="#" aria-label="YouTube"><i data-icon="yt"></i></a></div>
+<a class="vtab" href="enquiry.html">Enquire now</a>
+<button class="totop" id="totop" aria-label="Back to top"><i data-icon="up"></i></button>
+<main>
+<!-- ENQUIRY FORM -->
+<section class="section" id="enquiry"><div class="wrap">
+  <div class="form-card reveal">
+    <h2>How can we help you?</h2>
+    <p class="lead" style="text-align:center;margin-inline:auto">Tell us what you need and our team will get back to you with product information.</p>
+    <form id="enquiryForm" novalidate>
+      <div class="fgrid2">
+        <div class="field"><label for="name">Name*</label><input class="control" id="name" name="name" required autocomplete="name"><span class="err">Please enter your name.</span></div>
+        <div class="field"><label for="email">Email*</label><input class="control" id="email" name="email" type="email" required autocomplete="email"><span class="err">Enter a valid email.</span></div>
+        <div class="field"><label for="phone">Phone*</label><input class="control" id="phone" name="phone" type="tel" required autocomplete="tel"><span class="err">Please enter your phone.</span></div>
+        <div class="field"><label for="city">City*</label><input class="control" id="city" name="city" required autocomplete="address-level2"><span class="err">Please enter your city.</span></div>
+        <div class="field full"><label for="product">Select products*</label><select class="control" id="product" name="product" required></select><span class="err">Please choose a product.</span></div>
+        <div class="field full"><label for="message">Message</label><textarea class="control" id="message" name="message"></textarea></div>
+        <div class="field full"><label class="robot"><input type="checkbox" id="robot"> I'm not a robot</label><span class="err" id="robotErr">Please tick the box.</span></div>
+      </div>
+      <button class="submit" type="submit">Submit</button>
+    </form>
+    <div class="result" id="result" role="status" aria-live="polite"><b>Your enquiry summary is ready.</b>
+      <p class="note" style="text-align:left">This demo form does not send data. Connect it to your email or CRM service before launch; until then copy the text below.</p>
+      <textarea id="summary" readonly></textarea><div style="margin-top:12px;display:flex;gap:14px;align-items:center"><button class="btn btn-dark" id="copyBtn" type="button">Copy summary</button><span id="copyStatus" class="note"></span></div></div>
+  </div>
+</div></section>
+<!-- FAQ -->
+<section class="faqband" id="faq"><div class="wrap">
+  <h2 class="bold-title">FAQ's</h2><p class="fsub">Find answers to your questions about our products and all your pest control queries</p>
+  <div class="faq-list" id="faqList"></div>
+  <p class="fmore">Still can't find the answer? <a class="link" href="contact.html">Contact us</a></p>
+</div></section>
+</main>
+<!-- SECTION 9 — FOOTER -->
+<footer class="footer"><div class="wrap">
+  <div class="fgrid">
+    <div><a class="logo" href="index.html"><span class="logo-badge"><img src="images/logo.png" alt="HE Avatar logo" width="56" height="44"></span><span class="logo-text"><b>AVATAR</b><small>PEST CONTROL</small></span></a><p>Household pest-control range.</p>
+      <div class="soc"><a href="#" aria-label="Facebook"><i data-icon="fb"></i></a><a href="#" aria-label="Instagram"><i data-icon="ig"></i></a><a href="#" aria-label="LinkedIn"><i data-icon="in"></i></a><a href="#" aria-label="YouTube"><i data-icon="yt"></i></a></div></div>
+        <div><h5>Household</h5><ul data-house-li></ul></div>
+    <div><h5>Company</h5><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Our Products</a></li><li><a href="about.html">About Us</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+    <div><h5>Registered office</h5><ul><li>[Add registered office address]</li><li>[City, State, PIN]</li></ul><h5 style="margin-top:20px">Customer care</h5><ul><li>[Add phone number]</li><li>[Add email address]</li><li>[Add working hours]</li></ul></div>
+  </div>
+  <div class="fbottom"><span>© <span id="year"></span> HE Avatar. All rights reserved.</span><span>Verify product details and follow official product labels.</span></div>
+</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
